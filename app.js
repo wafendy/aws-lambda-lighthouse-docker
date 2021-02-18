@@ -43,8 +43,7 @@ exports.lambdaHandler = async (event) => {
         'SEO': report['categories']['seo']['score'],
         'BestPractices': report['categories']['best-practices']['score'],
         'ErrorMessage': report['audits']['speed-index']['errorMessage']
-      },
-      report: report
+      }
     }
 
   } catch (error) {
