@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse2",
+  "version": "1.0.0",
+  "description": "AWS Image Container for running Google Lighthouse in Lambda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^7.0.0",
+    "lighthouse": "^7.1.0",
+    "lighthouse-logger": "^1.2.0",
+    "puppeteer-core": "^7.1.0"
+  }
+}
