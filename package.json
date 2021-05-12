@@ -1,5 +1,5 @@
 {
-  "name": "lighthouse2",
+  "name": "aws-lambda-lighthouse-docker",
   "version": "1.0.0",
   "description": "AWS Image Container for running Google Lighthouse in Lambda",
   "main": "app.js",
@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chrome-aws-lambda": "^7.0.0",
-    "lighthouse": "^7.1.0",
+    "chrome-aws-lambda": "^9.1.0",
+    "lighthouse": "^7.4.0",
     "lighthouse-logger": "^1.2.0",
-    "puppeteer-core": "^7.1.0"
+    "puppeteer-core": "^9.1.1"
   }
 }
